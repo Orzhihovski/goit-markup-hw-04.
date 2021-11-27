@@ -67,6 +67,7 @@ body {
 .contact-icon:focus {
   fill: var(--accent-color);
 }
+
 .header-contact-item {
   display: flex;
 }
