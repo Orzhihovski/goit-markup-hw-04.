@@ -77,9 +77,8 @@ body {
 
 .header-cont {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
@@ -110,7 +109,9 @@ body {
 .header {
   background-color: var(--heder-bg-color);
   border-bottom: solid 2px var(--main-title-color);
+  border-bottom: 1px solid #ececec;
 }
+
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -646,6 +647,7 @@ body {
 }
 .footer-cont {
   display: flex;
+  align-items: baseline;
 }
 .footer-l {
   margin-top: 60px;
@@ -653,8 +655,6 @@ body {
 }
 .footer-r {
   margin-left: 70px;
-  margin-top: 72px;
-  margin-bottom: 100px;
 }
 .pris {
   font-weight: bold;
